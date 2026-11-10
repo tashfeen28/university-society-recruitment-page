@@ -3,7 +3,7 @@
 
 **Name:** Tashfeen Iqbal  
 **Roll Number:** i263070  
-**Section:** ICS  
+**Section:** SE-B  
 
 ### 1. Website Theme and Description
 
