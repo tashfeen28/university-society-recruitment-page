@@ -1,14 +1,36 @@
-/* Tashfeen i263070 */
+
+/* Tashfeen Iqbal | i263070 */
+
+/* Header */
+
 header {
     background-color: cyan;
     color: white;
     text-align: center;
+    padding: 15px;
 }
+
+/* Navigation */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+/* Buttons */
 
 button {
     background-color: orange;
     color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
+
+/* Main Headings */
 
 h2 {
     color: orange;
@@ -16,24 +38,40 @@ h2 {
     font-size: 48px;
 }
 
+/* Secondary Headings */
+
 h3 {
     color: cyan;
 }
+
+/* Paragraphs */
 
 p {
     font-size: 18px;
 }
 
+/* Tables */
+
 table {
     background-color: lightcyan;
     font-size: 18px;
+    border-collapse: collapse;
 }
 
 th {
     background-color: orange;
     color: white;
+    padding: 12px;
 }
 
 td {
+    padding: 10px;
+}
+
+/* Footer */
+
+footer {
+    background-color: cyan;
+    color: white;
     padding: 10px;
 }
