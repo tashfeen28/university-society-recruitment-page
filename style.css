@@ -1,0 +1,39 @@
+/* Tashfeen i263070 */
+header {
+    background-color: cyan;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: orange;
+    color: white;
+}
+
+h2 {
+    color: orange;
+    text-align: center;
+    font-size: 48px;
+}
+
+h3 {
+    color: cyan;
+}
+
+p {
+    font-size: 18px;
+}
+
+table {
+    background-color: lightcyan;
+    font-size: 18px;
+}
+
+th {
+    background-color: orange;
+    color: white;
+}
+
+td {
+    padding: 10px;
+}
