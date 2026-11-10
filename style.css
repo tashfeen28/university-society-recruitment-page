@@ -75,3 +75,22 @@ footer {
     color: white;
     padding: 10px;
 }
+
+/* Registration Form */
+
+input, select, textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid cyan;
+}
+
+label {
+    font-size: 18px;
+}
+
+form {
+    background-color: lightcyan;
+    padding: 20px;
+    display: inline-block;
+}
+

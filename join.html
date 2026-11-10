@@ -1,0 +1,180 @@
+
+<!-- Tashfeen Iqbal | i263070 | ICS -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FAST Debating Society - Join Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header align="center">
+        <h1>FAST Debating Society</h1>
+
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="events.html">Events</a>
+            <a href="team.html">Team</a>
+            <a href="join.html">Join Us</a>
+        </nav>
+
+        <br>
+
+        <button onclick="join()">Join Now</button>
+    </header>
+
+    <br><br><br>
+
+    <h2>Become a Part of Our Society</h2>
+
+    <br>
+
+    <center>
+        <img src="debating.jfif" width="250">
+    </center>
+
+    <h3>Why Join Us?</h3>
+
+    <p>
+        Joining FAST Debating Society gives you an opportunity
+        to express your ideas, improve your communication skills
+        and develop confidence. Whether you are a beginner or
+        an experienced speaker, our society welcomes students
+        who are passionate about learning and sharing their opinions.
+    </p>
+
+    <br><br><br>
+
+    <h2>Joining Requirements</h2>
+
+    <br>
+
+    <center>
+
+        <table border="1">
+
+            <tr>
+                <th>Year</th>
+                <th>Requirements</th>
+            </tr>
+
+            <tr>
+                <td>1st Year</td>
+                <td>Interest in debating and communication.</td>
+            </tr>
+
+            <tr>
+                <td>2nd Year</td>
+                <td>Basic speaking and presentation skills.</td>
+            </tr>
+
+            <tr>
+                <td>3rd Year</td>
+                <td>Previous debating experience.</td>
+            </tr>
+
+            <tr>
+                <td>4th Year</td>
+                <td>Leadership and mentoring skills.</td>
+            </tr>
+
+        </table>
+
+    </center>
+
+    <br><br><br>
+
+    <h2>Registration Form</h2>
+
+    <br>
+
+    <center>
+
+        <form onsubmit="register(event)">
+
+            <label>Name:</label>
+            <input type="text" id="name" required>
+
+            <br><br>
+
+            <label>Roll Number:</label>
+            <input type="text" id="roll" required>
+
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" id="email" required>
+
+            <br><br>
+
+            <label>Year:</label>
+
+            <select id="year" required>
+                <option value="">Select Year</option>
+                <option>1st Year</option>
+                <option>2nd Year</option>
+                <option>3rd Year</option>
+                <option>4th Year</option>
+            </select>
+
+            <br><br>
+
+            <label>Why do you want to join?</label>
+
+            <br><br>
+
+            <textarea id="reason" rows="4" cols="35" required></textarea>
+
+            <br><br>
+
+            <button type="submit">Submit Registration</button>
+
+        </form>
+
+    </center>
+
+    <br><br><br>
+
+    <center>
+
+        <h2>We Look Forward to Meeting You!</h2>
+
+        <p>
+            Take the first step towards becoming a confident
+            speaker and an active member of our community.
+        </p>
+
+    </center>
+
+    <br><br>
+
+    <footer align="center">
+
+        <h3>FAST Debating Society</h3>
+
+        <p>Tashfeen Iqbal | ICS | i263070</p>
+
+    </footer>
+
+    <script>
+
+        function join() {
+            window.alert("Welcome to FAST Debating Society!");
+        }
+
+        function register(event) {
+
+            event.preventDefault();
+
+            window.alert("Thank you for your interest! Your registration has been received.");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
